@@ -1,8 +1,8 @@
 ---
 title: Hello Code-Log
 date: 2023-11-05 12:00:00
-categories: [code-log, misc]
-tags: [random]
+categories: [AZ-204]
+tags: [azure]
 ---
 
 # Hello! Code-Log
