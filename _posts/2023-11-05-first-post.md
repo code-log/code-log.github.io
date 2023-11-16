@@ -5,14 +5,20 @@ categories: [code-log, misc]
 tags: [random]
 ---
 
-# Hi there!
+# Hello! Code-Log
 
-New test site!
+## AZ-204 Lets kick this off by installing PS7
 
-```javascript
-console.log('hello');
-```
+Grab PowerShell 7 MSI package from GitHub > 
 
-```bash
-sudo apt-get update
+```powershell
+Get-ExecutionPolicy -List
+
+Install-Module -Name Az -Repository PSGallery -Force
+
+Get-Module -Name Az -ListAvailable
+
+Update-Module -Name Ax
+
+Connect-AzAccount
 ```
